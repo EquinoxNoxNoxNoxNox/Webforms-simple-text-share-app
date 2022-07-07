@@ -1,0 +1,148 @@
+﻿* {
+    margin: 0;
+    padding: 0;
+    font-size: 16px;
+}
+
+html {
+    color: #808080;
+}
+
+a {
+    color: unset;
+}
+
+.txtRed {
+    color: #ff0000;
+}
+
+input[type="text"], input[type="password"] {
+    border: solid 1px #ebebeb;
+    padding: 1em 0.5em;
+    outline: none !important;
+    transition: all 250ms ease-in-out 0s;
+    border-bottom: solid 1px #808080;
+}
+
+    input[type="text"]:focus, input[type="password"]:focus {
+        border: solid 1px #b6ff00;
+    }
+
+input[type="submit"], .btn{
+    padding: 1em;
+    border: none;
+    background: #b6ff00;
+    text-align: center;
+    color: #fff;
+    cursor: pointer;
+    float: right;
+}
+.btnRed {
+    background: #ed3131 !important;
+}
+#divHeader {
+    float: left;
+    width: 100%;
+    padding: 1em 0;
+    background: #210972;
+    color: #fff !important;
+}
+
+    #divHeader > div:first-child {
+        float: right;
+        margin: 0 1em;
+    }
+
+        #divHeader > div:first-child > span {
+            float: left;
+        }
+
+        #divHeader > div:first-child > svg {
+            max-width: 1em;
+            max-height: 2em;
+            margin-left: 1em;
+            float: right;
+        }
+
+            #divHeader > div:first-child > svg * {
+                fill: #fff;
+            }
+
+    #divHeader > div:last-child {
+        float: left;
+    }
+
+#divLoginRegisterForm {
+    float: right;
+    display: flex;
+    flex-direction: column;
+    margin: 2em;
+}
+    #divLoginRegisterForm * {
+        text-align: right;
+        direction:rtl;
+    }
+
+    #divLoginRegisterForm > * {
+        margin: 0.2em 0;
+    }
+
+.NoteHorizontalLine {
+    width: 100%;
+    padding: 1em 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+    .NoteHorizontalLine::before, .NoteHorizontalLine::after {
+        content: "";
+        width: 30%;
+        height: 1px;
+        float: left;
+        background-color: #636e72;
+    }
+    .NoteHorizontalLine > div {
+        width: 1.5em;
+        height: 1.5em;
+        background-color: #e68244;
+        margin: 0 1em;
+        transform: rotate(45deg);
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+        .NoteHorizontalLine > div::after {
+            content: '';
+            width: 50%;
+            height: 50%;
+            border-radius: 50%;
+            background: #eee;
+        }
+.NoteItemTitle {
+    float:right;
+    color:#210972;
+    font-weight:bold;
+}
+.NoteItemDate{
+    float:right;
+    margin:0 1em;
+    font-size:0.6em;
+    color:#808080;
+}
+.NoteItemText{
+    width:95%;
+    margin:1em 2.5%;
+    float:right;
+    text-align:right;
+    word-spacing:3px;
+    word-break:break-word;
+}
+.LikeButton{
+    cursor:pointer;
+    background:none !important;
+    float:left;
+}
+.LikeButton {
+    float: left;
+}
