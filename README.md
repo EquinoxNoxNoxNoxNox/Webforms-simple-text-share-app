@@ -1,3 +1,7 @@
 # Webforms-simple-text-share-app
-EntityFramework codefirst approach
-.net webforms
+<ul>
+<li>EntityFramework codefirst approach</li>
+<br>
+<li>.net webforms</li>
+</ul>
+
